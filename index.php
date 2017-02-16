@@ -1,5 +1,6 @@
 <?php
-include 'lib/connect.php';
+//include 'lib/connect.php';
+include 'lib/functions.php';
 ?>
 
 <!DOCTYPE html>
@@ -39,6 +40,6 @@ and open the template in the editor.
             </div>
         </div>
   </nav>
-    <div id="spasti" class="col-md-12">Userbild 1 | Userbild 2 | Userbild 3 usw.</div>
+    <div id="botbar" class="col-md-12"><span></span><span>Userbild 1 | Userbild 2 | Userbild 3 usw.</span></div>
 </body>
 </html>
