@@ -10,6 +10,7 @@ and open the template in the editor.
         <title></title>
         <script src="js/jquery-3.1.1.min.js"></script>
         <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
     </head>
 <body>
   <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
@@ -19,20 +20,20 @@ and open the template in the editor.
     <a class="navbar-brand" href="#">Navbar</a>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link active" href="./">Home <span class="sr-only">(current)</span></a>
                 <a class="nav-item nav-link" href="#">Match</a>
                 <a class="nav-item nav-link" href="#">Pricing</a>
                 <a class="nav-item nav-link" href="#">Kontakt</a>
                 
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="text" placeholder="Benutzername">
-                    <input class="form-control mr-sm-2" type="text" placeholder="Passwort">
+                <form id="inputForm" class="form-inline my-2 my-lg-0">
+                    <input type="text" id="inputUsername" class="form-control mr-sm-2" placeholder="Benutzername eingeben">
+                    <input type="password" id="inputPasswort" class="form-control mr-sm-2" placeholder="Passwort eingeben">
                     <button class="btn btn-outline-success my-2 my-sm-0 mr-sm-2" type="submit">Login</button>
                     <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Registrieren</button>
                 </form>
             </div>
         </div>
   </nav>
-    <div class="col-md-12"></div>
+    <div id="spasti" class="col-md-12">Userbild 1 | Userbild 2 | Userbild 3 usw.</div>
 </body>
 </html>

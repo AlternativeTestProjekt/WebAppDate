@@ -1,0 +1,23 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16.02.2017, 16.02.2017 14:40:15
+    Author     : lentz
+*/
+
+body {
+    color: white;
+}
+
+#spasti {
+    background-color: #444;
+    text-align: center;
+}
+
+#inputForm {
+    position: absolute;
+    right: 0px;
+}
