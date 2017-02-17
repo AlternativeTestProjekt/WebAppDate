@@ -7,17 +7,32 @@ and open the template in the editor.
     Created on : 16.02.2017, 16.02.2017 14:40:15
     Author     : lentz
 */
-
-body {
-    color: white;
+html, body {
+  height: 100%;
+   font: 18px/23px "Cantarell", sans-serif;
+  color: #ffffff;
 }
+.col-sm-3 {
+    display: inline-table;
+}
+body {
 
+  background-image: url(../images/couple.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+@media only screen and (max-width: 767px) {
+  body {
+    /* The file size of this background image is 93% smaller
+     * to improve page load speed on mobile internet connections */
+    background-image: url(../images/phoneimage.jpg);
+  }
+	}
 #botbar {
     background-color: #ED146F;
     text-align: left;
 }
 
-#inputForm {
-    position: absolute;
-    right: 0px;
-}
