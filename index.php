@@ -1,5 +1,4 @@
 <?php
-//include 'lib/connect.php';
 include 'lib/functions.php';
 ?>
 
@@ -40,6 +39,10 @@ and open the template in the editor.
             </div>
         </div>
   </nav>
-    <div id="botbar" class="col-md-12"><span></span><span>Userbild 1 | Userbild 2 | Userbild 3 usw.</span></div>
+    <div id="botbar" class="col-md-12"><span>User Highlights: </span>
+        <span>
+            
+        </span>
+    </div>
 </body>
 </html>
